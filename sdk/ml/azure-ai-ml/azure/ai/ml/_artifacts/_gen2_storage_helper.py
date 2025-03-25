@@ -133,6 +133,7 @@ class Gen2StorageClient:
                 upload_file(
                     storage_client=self,
                     source=source,
+                    dest=dest,
                     msg=msg,
                     show_progress=show_progress,
                 )
