@@ -4,6 +4,7 @@
 
 ### Bugs Fixed
  - Fix for compute Instance, disableLocalAuth property should be depend on ssh public access enabled.
+ - Fixed Gen2StorageClient incorrectly copying the local folder structure when uploading uri_file-type inputs.
 
 ## 1.26.0 (2025-03-11)
 
